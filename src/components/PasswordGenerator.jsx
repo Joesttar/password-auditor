@@ -13,7 +13,7 @@ const PasswordGenerator = () => {
     return ( 
     <div>
         <p>{contraseñaGenerada}</p>
-        <button onClick={handleGenerarContraseña}>generar contraseña</button>
+        <button className="btn" onClick={handleGenerarContraseña}>Generar contraseña</button>
      </div>
     )
 }

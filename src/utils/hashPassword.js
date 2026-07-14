@@ -1,4 +1,4 @@
-
+// Genera el hash SHA-1 de la contraseña para consultarlo de forma segura en la API de HIBP (sin exponer la contraseña real)
 export async function hashPassword(password){
     const encoder = new TextEncoder();
     const data = encoder.encode(password);

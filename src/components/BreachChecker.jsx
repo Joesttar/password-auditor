@@ -17,7 +17,7 @@ const handleVerificar = async () => {
     }
 return (
         <div>
-            <button onClick={handleVerificar}>Verificar contraseña</button>
+            <button className="btn" onClick={handleVerificar}>Verificar contraseña</button>
             {cargando && <p>Verificando...</p>}
             {resultado && resultado.breached && <p>Esta contraseña ha sido filtrado {resultado.count}veces</p>}
             {resultado && !resultado.breached && <p>No aparecen filtraciones conocidas</p>}

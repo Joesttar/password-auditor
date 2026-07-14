@@ -1,3 +1,4 @@
+//Para Verificar las veces que una contraseña se filtro
 export async function checkPasswordBreach(hash) {
     const prefix = hash.slice(0, 5);
     const suffix = hash.slice(5);
@@ -21,3 +22,7 @@ export async function checkPasswordBreach(hash) {
         }
     }
 };
+
+/* En esta cuando llamamos a la funcion el parametro que utilizamos es
+el numero hexadecimal que nos da al poner la contraseña en nuestra funcion
+hashPassword en la consola de DevTools*/
