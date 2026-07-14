@@ -4,7 +4,7 @@ Aplicación web que audita la seguridad de contraseñas en tiempo real: evalúa 
 
 Demo
 
-🔗 Link a la demo en vivo (agregar una vez hecho el deploy)
+🔗 Link a la demo en vivo (https://password-auditor-mauve.vercel.app)
 
 Características
 
